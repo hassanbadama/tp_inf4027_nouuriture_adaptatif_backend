@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BancaireApplication<bancaire>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bancaire.service_coiffure.BancaireApplication",
+            "projectName": "bancaire",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-VenteApplication<vente>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.vente.systemeVentes.VenteApplication",
+            "projectName": "vente",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
